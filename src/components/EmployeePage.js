@@ -2,7 +2,7 @@ import React from 'react';
 
 const EmployeePage = () => {
 
-	return <div>EmployeePage</div>
+	return <div id="Employee-Page" className="page">EmployeePage</div>
 
 } // Employee page
 

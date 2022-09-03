@@ -1,0 +1,33 @@
+* {
+	font-family:  sans-serif;
+	--china-pink: #e56399ff;
+	--champagne-pink: #e5d4ceff;
+	--burnt-sienna: #de6e4bff;
+	--middle-blue-green: #7fd1b9ff;
+	--deep-taupe: #7a6563ff;
+}
+
+body {
+	/*removing the little space at the edge of the page*/
+	margin:  0; 
+	min-height:  100vh;
+}
+
+
+#root {
+	margin:  0;
+	/*min-height:  100vh;*/
+}
+
+#root-container {
+	height:  100vh;
+	display: flex;
+}
+
+.page {
+	flex-grow:  5;
+}
+/*
+#Structure-Page {
+	flex-grow:  5;
+}*/

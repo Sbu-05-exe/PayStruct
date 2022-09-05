@@ -1,4 +1,3 @@
-
 #NavBar ul {
 	padding:  0;
 	margin:  0;
@@ -8,22 +7,17 @@
 }
 
 #NavBar {
-	flex-grow:  1;
+	width:  20vw;
 	margin:  0;
 	background-color:  var(--deep-taupe);
 }
 
 #NavBar li {
-	/*border:  solid red;*/
 	border-width:  0 2px 2px 2px;
 	text-align:  center;
 	padding:  1.5rem;
 	color:  var();
 }
-/*
-#NavBar a:first-child li {
-	border-top:  ;
-}*/
 
 #NavBar a{
 	background-color:  var(--middle-blue-green) ;
@@ -35,8 +29,6 @@
 #NavBar a.unselected:hover {
 	transform:  scale(1.1);
 	transition:  0.2s ease;
-	border:  1px solid white;
-
 }
 
 #NavBar a.active {

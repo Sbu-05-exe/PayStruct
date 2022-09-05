@@ -27,7 +27,19 @@ body {
 .page {
 	flex-grow:  5;
 }
-/*
-#Structure-Page {
-	flex-grow:  5;
-}*/
+
+#treeWrapper {
+	border:  1rem solid var(--champagne-pink);
+	margin:  0 2rem;
+	overflow:scroll ;
+}
+
+
+.row-container {
+	display:  flex;
+	justify-content: flex-row;
+}
+
+h1 {
+	margin:  1rem 2rem;
+}
